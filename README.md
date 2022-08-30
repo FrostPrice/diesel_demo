@@ -4,6 +4,8 @@ A very small CRUD cli application using Diesel.
 
 ## How to use
 
+First, start the Database (Postgres): docker-compose up
+
 ```
 // Create Posts
 cargo run --bin write_post
